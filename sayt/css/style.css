@@ -1,0 +1,34 @@
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/josefin-sans-v32-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/josefin-sans-v32-latin-700.woff2") format("woff2");
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.bg-img {
+  background: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.checkbox {
+  accent-color: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+  
+}
+
+.checked-btn{
+    color: #3A7CFD;
+}
